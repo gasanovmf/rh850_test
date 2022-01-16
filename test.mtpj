@@ -599,7 +599,7 @@
       <LibOptionLibraryLibSetJmp-DefaultValue>False</LibOptionLibraryLibSetJmp-DefaultValue>
       <LinkOptionLibraryLibSetJmp-DefaultValue>False</LinkOptionLibraryLibSetJmp-DefaultValue>
       <IsLockedByUser>False</IsLockedByUser>
-      <TimeTagModified--0>-8585604010457592897</TimeTagModified--0>
+      <TimeTagModified--0>-8585593601005929575</TimeTagModified--0>
       <BuildMode-0>DefaultBuild</BuildMode-0>
       <Memo-0 />
       <SetAllBuildModeValue-0>False</SetAllBuildModeValue-0>
@@ -632,7 +632,7 @@
       <GeneralOptionXerrorFileName-0>%ProjectName%.err</GeneralOptionXerrorFileName-0>
       <GeneralOptionOutputBitIOR-0>False</GeneralOptionOutputBitIOR-0>
       <GeneralOptionResetVectorAddressPE3-0 />
-      <GeneralOptionXcref-0>False</GeneralOptionXcref-0>
+      <GeneralOptionXcref-0>True</GeneralOptionXcref-0>
       <GeneralOptionResetVectorAddressPE4-0 />
       <GeneralOptionXobjPath-0>%BuildModeName%</GeneralOptionXobjPath-0>
       <GeneralOptionResetVectorAddressPE5-0 />
@@ -1992,8 +1992,8 @@ src\freertos\include
       <FormatVersion>1.1</FormatVersion>
     </Instance>
     <Instance Guid="ccb786f6-b5fc-409c-93bf-105835d48f8f">
-      <AccumulateResultOfAnalysis>False</AccumulateResultOfAnalysis>
-      <CompulsorilyOutputCrossReferenceFile>False</CompulsorilyOutputCrossReferenceFile>
+      <AccumulateResultOfAnalysis>True</AccumulateResultOfAnalysis>
+      <CompulsorilyOutputCrossReferenceFile>True</CompulsorilyOutputCrossReferenceFile>
       <CompulsorilyEnableDebugToolFunctions>False</CompulsorilyEnableDebugToolFunctions>
       <IncludePrototypeDeclaration>True</IncludePrototypeDeclaration>
       <RefreshAtProgramStop>Yes</RefreshAtProgramStop>
@@ -2004,11 +2004,12 @@ src\freertos\include
       <ForceOutputFunctionInformation>False</ForceOutputFunctionInformation>
       <FreeMemoryWhenAllPanelClose>False</FreeMemoryWhenAllPanelClose>
       <AskWhetherCancelTheResultByOutOfMemory>True</AskWhetherCancelTheResultByOutOfMemory>
-      <AnalyzeFilesSelectionType>FilesNotToAnalyze</AnalyzeFilesSelectionType>
-      <AnalyzeNotTargetFilesCount>0</AnalyzeNotTargetFilesCount>
+      <AnalyzeFilesSelectionType>FilesToAnalyze</AnalyzeFilesSelectionType>
+      <AnalyzeTargetFilesCount>1</AnalyzeTargetFilesCount>
+      <AnalyzeTargetFiles0>a76d0a7b-27f3-4733-9d36-abc35aeb9c33</AnalyzeTargetFiles0>
       <TraceAnalysisTargetPE>All</TraceAnalysisTargetPE>
       <ImportFilesCount>0</ImportFilesCount>
-      <IsExportAutomatically>False</IsExportAutomatically>
+      <IsExportAutomatically>True</IsExportAutomatically>
       <ExportFunctionFileName>%ProjectName%.mtfl</ExportFunctionFileName>
       <ExportVariableFileName>%ProjectName%.mtvl</ExportVariableFileName>
       <NumberOfFunctionDisplayingInExecutionTimeChart>10</NumberOfFunctionDisplayingInExecutionTimeChart>

@@ -346,7 +346,7 @@
 <item id="enable" input="" vlaue="0"/>
 <item id="disable" input="" vlaue="0"/>
 </option>
-<option enabled="true" id="enableInterruptWhenCounting" selection="enable">
+<option enabled="true" id="enableInterruptWhenCounting" selection="disable">
 <item id="enable" input="" vlaue="0"/>
 <item id="disable" input="" vlaue="0"/>
 </option>

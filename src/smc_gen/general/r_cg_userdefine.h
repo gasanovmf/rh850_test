@@ -49,6 +49,9 @@ Macro definitions
 Typedef definitions
 ***********************************************************************************************************************/
 /* Start user code for type define. Do not edit comment generated here */
+#define TIMER_OFF	0
+#define TIMER_ON	1
+
 /* End user code. Do not edit comment generated here */
 
 /***********************************************************************************************************************

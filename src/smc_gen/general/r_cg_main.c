@@ -89,18 +89,18 @@ void R_MAIN_UserInit(void)
 /* Start user code for adding. Do not edit comment generated here */
 static void task1_TaskFn( void *pvParameters )
 {
-    const TickType_t xDelay = 5000 / 1;
-    uint8_t timerState = 0;
+    const TickType_t xDelay = 5000 / portTICK_PERIOD_MS;
+    uint8_t timerState = TIMER_OFF;
     for( ;; )
     {
-	if (timerState == 1)
+	if (timerState == TIMER_ON)
 	{
-		timerState = 0;
+		timerState = TIMER_OFF;
 		R_Config_TAUD0_2_Stop();
 	}
 	else
 	{
-		timerState = 1;
+		timerState = TIMER_ON;
 		R_Config_TAUD0_2_Start();
 	}
 	

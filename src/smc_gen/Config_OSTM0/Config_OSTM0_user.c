@@ -62,11 +62,11 @@ void R_Config_OSTM0_Create_UserInit(void)
 * Arguments    : None
 * Return Value : None
 ***********************************************************************************************************************/
-#pragma interrupt r_Config_OSTM0_interrupt(enable=false, channel=84, fpu=true, callt=false)
+#pragma interrupt r_Config_OSTM0_interrupt(enable=manual, channel=84, fpu=true, callt=false)
 void r_Config_OSTM0_interrupt(void)
 {
     /* Start user code for r_Config_OSTM0_interrupt. Do not edit comment generated here */
-    //tickOsTimer();
+    tickOsTimer();
     /* End user code. Do not edit comment generated here */
 }
 
